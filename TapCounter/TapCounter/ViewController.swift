@@ -18,13 +18,15 @@ class ViewController: UIViewController {
     var incr: Int?
     var needed: Int?
     var incrString: String?
+    var messages: [String] = []
     var formatter: NSNumberFormatter?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         count = 0
         incr = 1
-        needed = 10
+        needed = 50
+        messages = ["Nice Job!", "Woah.", "Keep Clickin!", "Professional", "Sick!", "Crazy!"]
         formatter = NSNumberFormatter()
         formatter!.numberStyle = .NoStyle
     }
@@ -35,7 +37,7 @@ class ViewController: UIViewController {
                 incr! += 1
                 incrString = String(incr!)
                 needed! = needed! * 2
-                instructionLabel.text = "Nice! +" + incrString!
+                instructionLabel.text = messages[Int(arc4random_uniform(UInt32(messages.count)))] + " +" + incrString!
                 instructionLabel.fadeIn()
             }
             count! += incr!
