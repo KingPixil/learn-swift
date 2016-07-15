@@ -28,6 +28,9 @@
                                 <state key="normal" title="TAP">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u0o-aq-1Ch"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.14345552113023807" green="0.87449224483516419" blue="1" alpha="1" colorSpace="calibratedRGB"/>
