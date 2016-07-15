@@ -38,6 +38,10 @@
                             <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xxt-cw-uUg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="countLabel" destination="RgY-Vm-xzm" id="3E1-bh-qAr"/>
+                        <outlet property="tapButton" destination="901-z0-e6S" id="haO-Tf-zUw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
