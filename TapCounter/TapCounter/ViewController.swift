@@ -15,18 +15,27 @@ class ViewController: UIViewController {
     @IBOutlet var tapButton: UIButton!
     
     var count: Int?
+    var incr: Int?
+    var incrString: String?
     var formatter: NSNumberFormatter?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         count = 0
+        incr = 1
         formatter = NSNumberFormatter()
         formatter!.numberStyle = .NoStyle
     }
 
     @IBAction func screenTapped(sender: UITapGestureRecognizer) {
         if sender.state == .Ended {
-            count! += 1
+            if count! % 10 == 0 && count! != 0 {
+                incr! += 1
+                incrString = String(incr!)
+                instructionLabel.text = "Nice! +" + incrString!
+                instructionLabel.fadeIn()
+            }
+            count! += incr!
             countLabel.text = formatter!.stringFromNumber(count!)
             instructionLabel.fadeOut()
         }
