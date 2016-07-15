@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     var count: Int?
     var incr: Int?
+    var needed: Int?
     var incrString: String?
     var formatter: NSNumberFormatter?
     
@@ -23,15 +24,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         count = 0
         incr = 1
+        needed = 10
         formatter = NSNumberFormatter()
         formatter!.numberStyle = .NoStyle
     }
 
     @IBAction func screenTapped(sender: UITapGestureRecognizer) {
         if sender.state == .Ended {
-            if count! % 10 == 0 && count! != 0 {
+            if count! >= needed && count! != 0 {
                 incr! += 1
                 incrString = String(incr!)
+                needed! = needed! * 2
                 instructionLabel.text = "Nice! +" + incrString!
                 instructionLabel.fadeIn()
             }
