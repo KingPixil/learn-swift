@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet var countLabel: UILabel!
     @IBOutlet var tapButton: UIButton!
     
+    var count: Int?
+    var formatter: NSNumberFormatter?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
