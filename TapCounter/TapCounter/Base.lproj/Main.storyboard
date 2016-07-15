@@ -22,31 +22,35 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="901-z0-e6S">
-                                <rect key="frame" x="278" y="411" width="44" height="38"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="TAP">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tapButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u0o-aq-1Ch"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="TAP ANYWHERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDd-MA-a9z">
+                                <rect key="frame" x="236" y="564" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14345552113023807" green="0.87449224483516419" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="901-z0-e6S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FSC-UO-zRw"/>
+                            <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CJj-0S-f7c"/>
+                            <constraint firstItem="qDd-MA-a9z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="br3-6u-fBa"/>
                             <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="muj-Ir-rdQ"/>
-                            <constraint firstItem="901-z0-e6S" firstAttribute="top" secondItem="RgY-Vm-xzm" secondAttribute="bottom" constant="45" id="xxE-hj-y7P"/>
                             <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xxt-cw-uUg"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="4vx-gW-DKz" appends="YES" id="rwh-zv-v8k"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="countLabel" destination="RgY-Vm-xzm" id="3E1-bh-qAr"/>
-                        <outlet property="tapButton" destination="901-z0-e6S" id="haO-Tf-zUw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4vx-gW-DKz">
+                    <connections>
+                        <action selector="screenTapped:" destination="BYZ-38-t0r" id="yH5-vy-m4V"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="325" y="400"/>
         </scene>

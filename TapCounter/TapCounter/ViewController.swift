@@ -25,7 +25,13 @@ class ViewController: UIViewController {
 
     @IBAction func tapButtonTapped(sender: UIButton) {
         count! += 1
-        countLabel.text = formatter!.stringFromNumber(count!	)
+        countLabel.text = formatter!.stringFromNumber(count!)
+    }
+    @IBAction func screenTapped(sender: UITapGestureRecognizer) {
+        if sender.state == .Ended {
+            count! += 1
+            countLabel.text = formatter!.stringFromNumber(count!)
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
