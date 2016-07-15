@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet var countLabel: UILabel!
+    @IBOutlet var instructionLabel: UILabel!
     @IBOutlet var tapButton: UIButton!
     
     var count: Int?
@@ -23,14 +24,11 @@ class ViewController: UIViewController {
         formatter!.numberStyle = .NoStyle
     }
 
-    @IBAction func tapButtonTapped(sender: UIButton) {
-        count! += 1
-        countLabel.text = formatter!.stringFromNumber(count!)
-    }
     @IBAction func screenTapped(sender: UITapGestureRecognizer) {
         if sender.state == .Ended {
             count! += 1
             countLabel.text = formatter!.stringFromNumber(count!)
+            instructionLabel.fadeOut()
         }
     }
     override func didReceiveMemoryWarning() {

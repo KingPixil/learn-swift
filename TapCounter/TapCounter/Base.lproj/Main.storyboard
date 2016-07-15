@@ -22,7 +22,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="TAP ANYWHERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDd-MA-a9z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAP ANYWHERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDd-MA-a9z">
                                 <rect key="frame" x="236" y="564" width="128" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,6 +33,7 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CJj-0S-f7c"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qDd-MA-a9z" secondAttribute="bottom" constant="15" id="Ff8-YY-ypB"/>
                             <constraint firstItem="qDd-MA-a9z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="br3-6u-fBa"/>
                             <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="muj-Ir-rdQ"/>
                             <constraint firstItem="RgY-Vm-xzm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xxt-cw-uUg"/>
@@ -43,6 +44,7 @@
                     </view>
                     <connections>
                         <outlet property="countLabel" destination="RgY-Vm-xzm" id="3E1-bh-qAr"/>
+                        <outlet property="instructionLabel" destination="qDd-MA-a9z" id="dOh-pi-mms"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

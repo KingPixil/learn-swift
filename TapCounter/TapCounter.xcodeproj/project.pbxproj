@@ -14,6 +14,7 @@
 		28CA6BD31D394EE900D5B583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CA6BD11D394EE900D5B583 /* LaunchScreen.storyboard */; };
 		28CA6BDE1D394EE900D5B583 /* TapCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA6BDD1D394EE900D5B583 /* TapCounterTests.swift */; };
 		28CA6BE91D394EE900D5B583 /* TapCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA6BE81D394EE900D5B583 /* TapCounterUITests.swift */; };
+		28CA6BF71D395FC000D5B583 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA6BF61D395FC000D5B583 /* UIViewExtensions.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		28CA6BE41D394EE900D5B583 /* TapCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CA6BE81D394EE900D5B583 /* TapCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCounterUITests.swift; sourceTree = "<group>"; };
 		28CA6BEA1D394EE900D5B583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CA6BF61D395FC000D5B583 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				28CA6BCF1D394EE900D5B583 /* Assets.xcassets */,
 				28CA6BD11D394EE900D5B583 /* LaunchScreen.storyboard */,
 				28CA6BD41D394EE900D5B583 /* Info.plist */,
+				28CA6BF61D395FC000D5B583 /* UIViewExtensions.swift */,
 			);
 			path = TapCounter;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28CA6BCB1D394EE900D5B583 /* ViewController.swift in Sources */,
+				28CA6BF71D395FC000D5B583 /* UIViewExtensions.swift in Sources */,
 				28CA6BC91D394EE900D5B583 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
