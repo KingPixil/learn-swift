@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TapCounter/ViewController.swift"
-            timestampString = "490319507.126126"
+            timestampString = "490320205.400264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "screenTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,13 +26,106 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TapCounter/ViewController.swift"
-            timestampString = "490318724.382823"
+            timestampString = "490320205.400264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TapCounter.ViewController.formatter.getter : Swift.Optional&lt;ObjectiveC.NSNumberFormatter&gt;"
+                  moduleName = "TapCounter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshah/KabirProjects/learn-swift/TapCounter/TapCounter/ViewController.swift"
+                  timestampString = "490320132.020403"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TapCounter.ViewController.formatter.setter : Swift.Optional&lt;ObjectiveC.NSNumberFormatter&gt;"
+                  moduleName = "TapCounter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshah/KabirProjects/learn-swift/TapCounter/TapCounter/ViewController.swift"
+                  timestampString = "490320132.020666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TapCounter.ViewController.formatter.materializeForSet : Swift.Optional&lt;ObjectiveC.NSNumberFormatter&gt;"
+                  moduleName = "TapCounter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshah/KabirProjects/learn-swift/TapCounter/TapCounter/ViewController.swift"
+                  timestampString = "490320132.020869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TapCounter.ViewController.init (TapCounter.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; TapCounter.ViewController"
+                  moduleName = "TapCounter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshah/KabirProjects/learn-swift/TapCounter/TapCounter/ViewController.swift"
+                  timestampString = "490320132.021061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "497">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TapCounter.ViewController.init (TapCounter.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;TapCounter.ViewController&gt;"
+                  moduleName = "TapCounter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshah/KabirProjects/learn-swift/TapCounter/TapCounter/ViewController.swift"
+                  timestampString = "490320132.021246"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "377">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TapCounter/ViewController.swift"
+            timestampString = "490320078.7786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
