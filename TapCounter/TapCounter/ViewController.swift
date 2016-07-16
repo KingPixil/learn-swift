@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet var countLabel: UILabel!
     @IBOutlet var instructionLabel: UILabel!
-    @IBOutlet var tapButton: UIButton!
     
     var count: Int?
     var incr: Int?
