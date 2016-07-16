@@ -8,3 +8,5 @@ I will be making random ios apps to learn Swift (hopefully)
 Tap to make the counter go up!
 There are levels which make tap increment by more each level!
 Along with positive messages when you complete one.
+
+![](/TapCounter/TapCounter.gif)
