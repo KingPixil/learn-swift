@@ -10,3 +10,9 @@ There are levels which make tap increment by more each level!
 Along with positive messages when you complete one.
 
 ![](/TapCounter/TapCounter.gif)
+
+**2: Emoji**
+Tap anywhere to get a random Emoji!
+Background color changes also!
+
+![](/RandomEmoji/EmojiGen.gif)
